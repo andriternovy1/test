@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  bjb ViewController.h
 //  test
 //
 //  Created by Andrii Ternovyi on 22.08.13.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-
-@property (strong, nonatomic) UIWindow *windowcvxbckhg
-
+@interface bjb_ViewController : UIViewController
+bhj
 @end
