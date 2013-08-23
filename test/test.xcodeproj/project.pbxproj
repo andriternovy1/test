@@ -12,11 +12,11 @@
 		AD6FF3F517C6A2AC00174D0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6FF3F417C6A2AC00174D0B /* CoreGraphics.framework */; };
 		AD6FF3FB17C6A2AC00174D0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD6FF3F917C6A2AC00174D0B /* InfoPlist.strings */; };
 		AD6FF3FD17C6A2AC00174D0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6FF3FC17C6A2AC00174D0B /* main.m */; };
-		AD6FF40117C6A2AC00174D0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6FF40017C6A2AC00174D0B /* AppDelegate.m */; };
 		AD6FF40317C6A2AC00174D0B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6FF40217C6A2AC00174D0B /* Default.png */; };
 		AD6FF40517C6A2AC00174D0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6FF40417C6A2AC00174D0B /* Default@2x.png */; };
 		AD6FF40717C6A2AC00174D0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6FF40617C6A2AC00174D0B /* Default-568h@2x.png */; };
 		AD6FF40F17C6A64C00174D0B /* wqdqViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6FF40E17C6A64C00174D0B /* wqdqViewController.m */; };
+		AD6FF41217C6AA8A00174D0B /* bjb ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6FF41117C6AA8A00174D0B /* bjb ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +29,13 @@
 		AD6FF3FC17C6A2AC00174D0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD6FF3FE17C6A2AC00174D0B /* test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Prefix.pch"; sourceTree = "<group>"; };
 		AD6FF3FF17C6A2AC00174D0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AD6FF40017C6A2AC00174D0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AD6FF40217C6A2AC00174D0B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AD6FF40417C6A2AC00174D0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AD6FF40617C6A2AC00174D0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AD6FF40D17C6A64C00174D0B /* wqdqViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wqdqViewController.h; sourceTree = "<group>"; };
 		AD6FF40E17C6A64C00174D0B /* wqdqViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wqdqViewController.m; sourceTree = "<group>"; };
+		AD6FF41017C6AA8A00174D0B /* bjb ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bjb ViewController.h"; sourceTree = "<group>"; };
+		AD6FF41117C6AA8A00174D0B /* bjb ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "bjb ViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +83,11 @@
 			isa = PBXGroup;
 			children = (
 				AD6FF3FF17C6A2AC00174D0B /* AppDelegate.h */,
-				AD6FF40017C6A2AC00174D0B /* AppDelegate.m */,
 				AD6FF3F717C6A2AC00174D0B /* Supporting Files */,
 				AD6FF40D17C6A64C00174D0B /* wqdqViewController.h */,
 				AD6FF40E17C6A64C00174D0B /* wqdqViewController.m */,
+				AD6FF41017C6AA8A00174D0B /* bjb ViewController.h */,
+				AD6FF41117C6AA8A00174D0B /* bjb ViewController.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -170,8 +172,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD6FF3FD17C6A2AC00174D0B /* main.m in Sources */,
-				AD6FF40117C6A2AC00174D0B /* AppDelegate.m in Sources */,
 				AD6FF40F17C6A64C00174D0B /* wqdqViewController.m in Sources */,
+				AD6FF41217C6AA8A00174D0B /* bjb ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
